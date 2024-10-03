@@ -1,0 +1,47 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Django stuff
+*.log
+*.pot
+*.py[cod]
+db.sqlite3
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environment
+venv/
+env/
+myenv/
+ENV/
+
+# macOS system files
+.DS_Store
+
+# JetBrains IDEs
+.idea/
+
+# VS Code files
+.vscode/
+
+# PyCharm
+*.iml
+.idea/
+*.idea/
+
+# Migrations
+*/migrations/*
+
+# Media/uploads (optional, if you don't want to version control user uploads)
+media/
+
+# Static files (collected)
+staticfiles/
+
+# Local development settings (optional)
+local_settings.py
