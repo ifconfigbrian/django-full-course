@@ -8,16 +8,16 @@ body {
     min-height: 100vh;
     background-color: black;
     color: whitesmoke;
-    font-size: 3rem;
+    font-size: 2.5rem;
     display: flex;
     flex-flow: column;
 }
 
 nav {
     padding: 1rem;
-    background-color: #44B78B;
+    background-color: #114b72;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 main {
@@ -33,7 +33,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #81dbb8;
+    color: #0ba0b4;
 }
 
 a:hover {
