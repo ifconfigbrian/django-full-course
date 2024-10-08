@@ -8,7 +8,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.homepage, name='homepage'),
     path('about/', views.about, name='aboutpage'),
-    path('posts/', include('posts.urls'))
+    path('posts/', include('posts.urls')),
+    path('users/', include('users.urls'))
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
